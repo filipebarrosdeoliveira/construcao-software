@@ -7,6 +7,14 @@
     <groupId>br.ufg.inf.es.construcao.av</groupId>
     <artifactId>avaliacao2</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>
