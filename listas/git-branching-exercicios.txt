@@ -1,0 +1,35 @@
+Fábrica de Software
+Documento: fs-mobile-2
+
+Git (exercícios adicionais)
+
+
+1. Siga atentamente os slides disponíveis AQUI. Experimente os comandos, ambiente-se com eles. Esclareça suas dúvidas com o professor. Faça uso de repositórios locais e, para boa parte dos comandos, terá que interagir com o GitHub (serviço sugerido na disciplina). Faça isto antes de prosseguir com os demais itens.
+2. Qual o comando para que as “marcas” ou tags sejam enviadas para o repositório remoto? (um simples git push não produz este efeito)
+git clone. Uma vez que o git push não cria uma copia local de todo repositório existente.
+
+3. Qual o nome do branch padrão do Git?
+git branch
+
+4. O que o comando git branch <branchname> realiza?
+Exibe os branches do repositório.
+
+5. Como criar um branch a partir de um commit específico?
+Utilizando o git add, uma vez que este adiciona o arquivo a ser considerado no próximo commit.
+
+6. Em um repositório, qual o efeito do comando git branch erro1234?
+O destino não corresponde a uma referência existente.
+
+7. Qual o comando para se alternar para um branch de nome experimento2?
+git commit
+
+8. Em um repositório com dois branches, b1 e b2, onde b1 é o corrente, qual o efeito do comando git branch?
+O git branch irá exibir os branches do repositório b1.
+
+9. O que o comando git checkout -b novobranch faz?
+Cria  um branch os mesmos commit’s do branch.
+
+10. Qual a função do comando git branch -d teste?
+Apaga o teste encontrado no repositório dos branches.
+
+11. Durante o desenvolvimento de um software é comum, por exemplo, utilizar um novo recurso por meio de experimentação. Talvez uma nova tecnologia, uma nova biblioteca que pode ser útil ao que está em desenvolvimento, ou até mesmo uma nova versão de um produto já empregado. Para que o uso deste novo recurso não interfira com o que é considerado pronto, um branch pode ser criado para a experimentação. Código que for criado para a experimentação existirá apenas no branch criado. Se eventualmente o experimento demonstrar um resultado satisfatório, as alterações realizadas no branch poderão ser incorporadas no que é considerado pronto, ou seja, no branch principal (master). Esta última ação é conhecida por merge. Neste item, apresente uma sequência de comandos que simula um caso simples de criação e uso seguido de merge empregando um branch para ilustrar uma experimentação conforme acima. A sequência deve incluir, obrigatoriamente: (a) criação de um ou mais branches; (b) chaveamento para pelo menos dois branches e (c) merge. Para simular alteração em um arquivo, basta simplesmente fornecer algo como Arquivo <nome> é alterado. O que foi fornecido em negrito representa uma ação que altera um arquivo cujo nome é fornecido entre o sinal de menor e o de maior.
